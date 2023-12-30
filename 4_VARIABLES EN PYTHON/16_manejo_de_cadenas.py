@@ -16,4 +16,3 @@ print ("Mi grupo favorito es: " + miGrupofavorito + " " + comentario)
 print("Mi grupo favorito es: ", miGrupofavorito, comentario)
 
 
-#esto es un comentario 
