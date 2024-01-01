@@ -12,3 +12,10 @@ else: #en este caso es verdadera por que desde un inicio estamos invirtiendo la 
 
 
 
+
+
+
+
+
+
+
