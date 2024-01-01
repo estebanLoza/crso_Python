@@ -10,3 +10,4 @@ print(veintes)
 
 treintas = edad >= 30 and  edad < 40
 print(treintas)
+
