@@ -8,14 +8,14 @@ valor = int(input("Escribe el valor: "))
 valor_minimo = 0
 valor_max = 5
 
-
+                        #***INICIA LA COMPARACIÓN***
                 #los parentesis son opcionales
 dentroRango = (valor >= valor_minimo)  and (valor <= valor_max)
 
 #solo imprimir el valor booleano
 print (dentroRango ,'solo imprime el valor booleano')
 
-if valor:
+if dentroRango:
     print(f'El valor {valor} esta dentro del rango')
 else:
     print(f'El valor {valor} no esta dentro del rango')

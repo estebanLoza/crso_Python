@@ -8,7 +8,7 @@ else:
     print('No eres mayor de Edad')
 
 
-#segunda manera de hacerlo
+#segunda manera de hacerlo ( con mis variables)
 
 edadMayor = 18
 
