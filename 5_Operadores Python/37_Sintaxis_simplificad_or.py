@@ -21,7 +21,7 @@ edad_Persona = int(input('Escribe tu edad: '))
 
 
 #LO QUE SE MEJORA LA SINTAXIS ES ESTO (COMPARA CON EL ARCHIVO ANTERIOR)
-if (  20 <= edad_Persona < 30 ) or (  30 <= edad_Persona < 40):
+if (  20 <=  edad_Persona < 30 ) or (  30 <= edad_Persona < 40):
     print("Dentro del rango 20's o 30's")
 
 else:
