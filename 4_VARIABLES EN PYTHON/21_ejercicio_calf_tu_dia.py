@@ -14,3 +14,5 @@ promedio = califDiaLunes + califDiaMartes + califDiaMiercoles/3
 
 
 print ("Tu promedio de los 3 dias que escibiste fue de ", round(promedio,2) , "Muchas gracias ", nombre)
+
+#El comando ***round(varible,2)**** sirve para redondear los decimales en este caso pusimos que fuera despues del punto 2
