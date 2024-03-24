@@ -6,7 +6,7 @@
 
 #inciamos suponiendo los valores con false y luego intercambiando un valor a true
 
-vacaciones = False
+vacaciones = True
 diaDescanso = False
 
 
