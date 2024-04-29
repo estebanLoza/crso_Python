@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Creacion de funciones en python
 
 def mi_funcion():
@@ -8,3 +9,6 @@ def mi_funcion():
 
 
 mi_funcion()
+=======
+print("Hola mundo")
+>>>>>>> 1b5a801e0925c63d7dbde6105cbd4d246c778a22
