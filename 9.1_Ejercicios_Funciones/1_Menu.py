@@ -1,4 +1,4 @@
-#FUNCIONES SIN RETORNO
+#FUNCION SIN VALOR DE RETORNO
 
 def suma():
   num1 = int(input("Ingrese el primer numero: "))
