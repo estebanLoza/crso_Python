@@ -17,3 +17,4 @@ while i <= facto:
     i+=1
 print(f"factorial hasta el numero {facto} es de {factoMulti}")
 print(f"La suma total es de {suma}")
+
