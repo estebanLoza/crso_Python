@@ -77,24 +77,45 @@ def LibrosLeidos():
 
 
 
-print("****BIENVENIDO AL PROGRAMA*****")
-print("1)Crear una lista de escritores")
-print("2)Buscar Escritores y su información")
-print("3)Libros leidos")
-print("4)Salir")
+def IterarLista():
+    lista = ["platano", "Papaya", 234.5, True]
 
-op = int(input("Opcion: "))
+    print(lista)
+    print("\n")
 
-if op == 1:
-    CrearLista()
-elif op == 2:
-    BuscarEscritor()
-elif op == 3:
-    LibrosLeidos()
-elif op == 4:
-    print("Gracias por usar el programa")
-else:
-    print("Opcion invalida")
+    for iterar in lista:
+        print(f"* {iterar}")
+
+
+while True:
+    print('\n')
+    print("****BIENVENIDO AL PROGRAMA*****")
+    print("1)Crear una lista de escritores")
+    print("2)Buscar Escritores y su información")
+    print("3)Libros leidos")
+    print("4)Opcion de iterera una lista")
+    print("5)Salir")
+
+    op = int(input("Opcion: "))
+
+
+
+
+    if op == 1:
+        CrearLista()
+    elif op == 2:
+        BuscarEscritor()
+    elif op == 3:
+        LibrosLeidos()
+    elif op == 4:
+        IterarLista()
+    elif op == 5:
+        print("Gracias por usar el programa")
+        break
+    else:
+        print("Opcion invalida")
+        
+
 
 
 

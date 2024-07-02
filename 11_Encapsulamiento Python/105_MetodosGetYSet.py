@@ -10,13 +10,13 @@ class Persona:
         self.apellido = apellido
         self.edad = edad
 
-    @property
+    @property #Esto es un decorador, modifica el comportamiento de nuestro metodo y con esto metodo podemos seguir accediendo
     def nombre(self):
-        print('Llamando método get nombre')
+        print('Llamando método get nombre') #comprobacion para saber si estamos llamando estos parametros
         return self._nombre
 
-    @nombre.setter
-    def nombre(self, nombre):
+    @nombre.setter              #aqui se puso el nombre del atributo y con esto estamos diciendo que esta asociado con atributo nombre(no es necesario el _)
+    def nombre(self, nombre):      #y tambien estamos indicando que es tipo set
         print('Llamando método set nombre')
         self._nombre = nombre
 
@@ -28,3 +28,7 @@ persona1.nombre = 'Juan Carlos'
 print(persona1.nombre)
 # persona1._nombre = 'Cambio'
 # print(persona1._nombre)
+
+
+
+
