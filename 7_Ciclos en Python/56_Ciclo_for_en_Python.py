@@ -10,7 +10,7 @@ else:
 
 
 cadena = "HOlasssas"
-n = 1
+n = 0
 for i in cadena:
-    print(f"{i}{(n)}", end=" ,")
+    print(f"{i}{n}", end=" ,")
     n+=1
