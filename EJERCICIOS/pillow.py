@@ -1,25 +1,9 @@
-# import matplotlib.pyplot as plt
-# import numpy as np
+## Funcion lambda para poner en python
+## En forma de funcion y de manera común como siempre se hace una operacio
+import math
 
-# xpoints = np.array([0, 6])
+print("La siguiente operación (3+2/2.5)^2")
 
-# ypoints = np.array([0, 250])
+operacion = math.pow((3 + 2) / (2 * 5), 2)
 
-# plt.plot(xpoints, ypoints,"r*")
-
-# plt.show()
-
-
-
-count = 1
-
-for numeros in range(1, 101):
-    if numeros % 3 == 0 and numeros % 5 == 0:
-        print("fizzbuzz")
-    elif numeros % 3 == 0:
-        print("fizz")
-    elif numeros % 5 == 0:
-        print("buzz")
-    else:
-        print(f"{numeros}")
-
+print(f"El resultado de la operacion es de {operacion}")
