@@ -7,7 +7,7 @@ nombre = input("Ingrese su nombre: ")
 salario = float(input("Ingrese su salario: "))
 
 
-nuevoSalario = salario + (salario*0.10) 
+nuevoSalario = salario + (salario * 0.10) 
 
 
 print(f"Su nuevo salario es de {nuevoSalario}")

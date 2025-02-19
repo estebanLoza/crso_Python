@@ -9,7 +9,7 @@ print(nombres[1])
 print(nombres[-1])
 print(nombres[-2])
 #Imprimir un rago
-print(nombres[0:2]) # sin incluir el índice 2
+print(nombres[0:2]) # sin incluir el índice 2 (se resta 1)
 
 #Ir del inicio de la lista al índice (sin incluirlo)
 print(nombres[:3])
