@@ -1,0 +1,16 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\112_ejherencia.py 1733088382 459
+.Persona: ClassType
+.Persona.nombre: Never
+.Persona.edad: Never
+.Persona.__call__: (nombre: Obj, edad: Obj) -> 112_ejherencia.Persona
+
+.Empleado: ClassType
+112_ejherencia = pyimport "112_ejherencia"
+.Empleado <: .Persona
+.Empleado.sueldo: Never
+.Empleado.__call__: (nombre: Obj, edad: Obj, sueldo: Obj) -> 112_ejherencia.Empleado
+
+.empleado1: .Empleado
+
+
+

@@ -33,7 +33,7 @@ x = 5
 while True:
     x -= 1    
     print(x)
-    if x == 0:
+    if x == 3:
         break
     print("Fin del bucle")
 
@@ -44,7 +44,7 @@ print('Break  y bucles anidados')
 
 #*Break y bucles anidados
 
-for i in range(0, 4):
+for i in range(0, 4): #El range en for funciona que es el limite menos 1, por ejemplo yo pongo de 0 a 4, este lira de 0 a 3 en print(i)
     for j in range(0, 4):
         break
         #Nunca se realiza más de una iteración
