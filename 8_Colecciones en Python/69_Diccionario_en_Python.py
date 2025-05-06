@@ -16,7 +16,7 @@ print("\nAhora agregaremos la nacionalidad del escritor.")
 nacionalidad = input("Ingrese la nacionalidad del escritor: ")
 
 # Agregamos la nueva clave al diccionario
-escritor["nacionalidad"] = nacionalidad
+escritor["nacionalidad"] = nacionalidad  #----> este es el values
 
 # Mostramos el diccionario actualizado
 print("\nDatos actualizados del escritor:")
