@@ -1,3 +1,6 @@
+from PIL import Image
+
+
 listaAutores = [
     "Mario Benedetti",
     "Julio Verne",
@@ -45,7 +48,7 @@ listaLibros = [
 
 #Creare un diccionario con la info de los libros, para ello se crea un diccionario dentro de otro diccionario.
 librosConInformacion =  {
-    "La Treguea": {
+    "La Tregua": {
         "Autor": "Mario Benedetti",
         "Sinopsis": "Un diario intimo sobre la rutina, el amor inesperado y la melancolia de la vida cotidiana",
         "Año": 1960
@@ -59,66 +62,65 @@ librosConInformacion =  {
     },
 
     "El coronel No Tiene Quien Le Escriba": {
-        "autor": "Gabriel García Márquez",
-        "sinopsis": "La historia de un coronel retirado que espera una pensión que nunca llega, en medio de la pobreza.",
-        "año": 1961
+        "Autor": "Gabriel García Márquez",
+        "Sinopsis": "La historia de un coronel retirado que espera una pensión que nunca llega, en medio de la pobreza.",
+        "Año": 1961
     },
 
     "El Aleph": {
-        "autor": "Jorge Luis Borges",
-        "sinopsis": "Una colección de cuentos que exploran el infinito, la memoria, los laberintos y la literatura.",
-        "año": 1949
+        "Autor": "Jorge Luis Borges",
+        "Sinopsis": "Una colección de cuentos que exploran el infinito, la memoria, los laberintos y la literatura.",
+        "Año": 1949
     },
 
     "Ficciones": {
-        "autor": "Jorge Luis Borges",
-        "sinopsis": "Una serie de cuentos filosóficos y metafísicos que desafían la lógica y la realidad.",
-        "año": 1944
+        "Autor": "Jorge Luis Borges",
+        "Sinopsis": "Una serie de cuentos filosóficos y metafísicos que desafían la lógica y la realidad.",
+        "Año": 1944
     },
 
     "Hijo de Satanás": {
-        "autor": "Charles Bukowski",
-        "sinopsis": "Un conjunto de relatos crudos y viscerales que abordan la marginalidad, el alcohol y la crudeza humana.",
-        "año": 1985
+        "Autor": "Charles Bukowski",
+        "Sinopsis": "Un conjunto de relatos crudos y viscerales que abordan la marginalidad, el alcohol y la crudeza humana.",
+        "Año": 1985
     },
 
     "Caín": {
-        "autor": "José Saramago",
-        "sinopsis": "Una revisión irónica y crítica de episodios bíblicos narrados desde la perspectiva del personaje Caín.",
-        "año": 2009
+        "Autor": "José Saramago",
+        "Sinopsis": "Una revisión irónica y crítica de episodios bíblicos narrados desde la perspectiva del personaje Caín.",
+        "Año": 2009
     },
 
     "Rayuela": {
-        "autor": "Julio Cortázar",
-        "sinopsis": "Una novela experimental que puede leerse de distintas formas, explorando el amor, el arte y la existencia.",
-        "año": 1963
+        "Autor": "Julio Cortázar",
+        "Sinopsis": "Una novela experimental que puede leerse de distintas formas, explorando el amor, el arte y la existencia.",
+        "Año": 1963
     },
 
     "El Amor En Tiepos De Cólera": {
-        "autor": "Gabriel García Márquez",
-        "sinopsis": "Una historia de amor duradero y paciente entre dos almas separadas por décadas.",
-        "año": 1985
+        "Autor": "Gabriel García Márquez",
+        "Sinopsis": "Una historia de amor duradero y paciente entre dos almas separadas por décadas.",
+        "Año": 1985
     },
 
     "La Borra De Café": {
-        "autor": "Mario Benedetti",
-        "sinopsis": "Una novela nostálgica sobre la infancia, la memoria y el paso del tiempo en Montevideo.",
-        "año": 1992
+        "Autor": "Mario Benedetti",
+        "Sinopsis": "Una novela nostálgica sobre la infancia, la memoria y el paso del tiempo en Montevideo.",
+        "Año": 1992
     },
 
     "Mi Nombre Es Emilia Del Valle": {
-        "autor": "Desconocido",
-        "sinopsis": "Una historia sobre identidad, lucha interior y búsqueda personal.",
-        "año": None  # Puedes completar el año si lo conoces
+        "Autor": "Desconocido",
+        "Sinopsis": "Una historia sobre identidad, lucha interior y búsqueda personal.",
+        "Año": None  # Puedes completar el año si lo conoces
     },
 
     "Ensayo Sobre La Lucidez": {
         "autor": "José Saramago",
         "sinopsis": "Una metáfora política sobre una sociedad donde la mayoría vota en blanco como protesta silenciosa.",
-        "año": 2004
+        "Año": 2004
     }
 }
-
 listaParaAgregarLibros = [] 
 
 
@@ -132,7 +134,8 @@ def BusquedaLibrosAutores():
         print("\n")
         print("1) Ver la lista de los autores")
         print("2) Buscar el libros")
-        print("3) Salir")
+        print("3) Abrir foto de abrir una imagen")
+        print("4) Salir")
 
         try: #Aqui esto sirve para que no ingrese un caracter o cualquier otra coas que o sea numero
             op = int(input("Ingrese La opcion que quiere seleccionar: "))
@@ -166,18 +169,35 @@ def BusquedaLibrosAutores():
 
             buscaLibro = input("Escribe el nombre del libro por favor: ")
             buscaLibroTitle = buscaLibro.title()
+            
+            encontradoElLibro = False  #como nosotros queremos rastrear si algo paso o no paso
+                                        #durante la ejecucion de un bucle o bloque de codigo
+                                        #en principio se asume que un no se busca
 
             #buscara si el libro esta 
-            if buscaLibroTitle in listaLibros: #indicamos que si esta 
-                for buscandolibroInfo in listaLibros: # toda la listaLibros se itera en buscalibroInfo 
-                    #print(f"{buscandolibroInfo}")   #verificacion de iteracion 
-                    if buscandolibroInfo in librosConInformacion.keys():
-                        print(f"{librosConInformacion[buscaLibroTitle]}")
-                        
-                
 
+            for elTitulo in listaLibros: #todo la lista en la nueva variable
+                if elTitulo == buscaLibroTitle: #igual a la entrada del titulo 
+                    if elTitulo in librosConInformacion: #si esta en  el dicionario y es igual al keys
+                        infoDelLibro = librosConInformacion[elTitulo]
+                        print(f"\nInformacio del libro '{elTitulo}' ")
+                        print(f"\nAño: '{infoDelLibro.get('Año')}' ")
+
+                    else:
+                        print("\n**************************************************")
+                        print(f"El libro esta en la lista, pero no hay informacion ")
+                    encontradoElLibro = True   #aqui ya buscamos el libro 
+                    break  #salimos del bucle if 
+            if not encontradoElLibro:  #aqui ya esta al nivel del for, asi que si al terminar el ciclo "encontrado" sigue siendo false
+                print("El libro no se encuentra en la lista.")
 
         if op == 3:
+            imagen = Image.open('/Usuarios/emhl17/Descargas/esculturaDeMujerEnJardin.jpg')
+
+            imagen.show()
+
+
+        if op == 4:
             print("Gracias por usar el programa")
             break
         else:
