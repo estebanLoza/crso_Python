@@ -60,6 +60,8 @@ librosConInformacion = {
         "Autor": "Jose Saramago",
         "Sinopsis": "Una reflexión alegórica donde la muerte deja de actuar en un país, generando caos y dilemas éticos.",
         "Año": 2005,
+        "Portada": "https://m.media-amazon.com/images/I/616OAOTn00L._AC_UF894,1000_QL80_.jpg",
+
     },
     "El Coronel No Tiene Quien Le Escriba": {
         "Autor": "Gabriel García Márquez",
@@ -182,16 +184,24 @@ def BusquedaLibrosAutores():
                         print(f"\nAño: '{infoDelLibro.get('Año')}' ")
                         print(f"\nSinopsis: '{infoDelLibro.get('Sinopsis')}' ")
                         print(f"\nAutor: '{infoDelLibro.get('Autor')}' ")
+                        
+                        print(f"\nPortada... {infoDelLibro.get('Portada')} ")
 
-                        portada = infoDelLibro.get("Portada")
+                                                                    
+                        #esto guarda que lo da de valor (value) de Portada (keys) que es el link 
+                        portada = infoDelLibro.get('Portada')
 
-                        response = requests.get(portada)
-
+                        #Esto es el verdadero funcionamiento de que ese pueda abrir la portada
+                        response = requests.get(portada, stream=True)
                         imagen = Image.open(BytesIO(response.content))
+                        imagen.show()
 
                     else:
                         print("\n**************************************************")
                         print(f"El libro esta en la lista, pero no hay informacion ")
+                        
+
+
                     encontradoElLibro = True  # aqui ya buscamos el libro
                     break  # salimos del bucle if
             if (
