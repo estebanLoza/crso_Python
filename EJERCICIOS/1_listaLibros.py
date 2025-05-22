@@ -45,6 +45,7 @@ listaLibros = [
     "Todos Los Nombres",
     "La Caverna",
     "El Añio De La Muerte",
+    "El Principito",
 ]
 
 
@@ -113,6 +114,12 @@ librosConInformacion = {
         "Sinopsis": "Una metáfora política sobre una sociedad donde la mayoría vota en blanco como protesta silenciosa.",
         "Año": 2004,
     },
+    "El Principito":{
+        "Autor": "Antonie de Saint-Exupéry",
+        "Sinopsis": "Narra la historia de un niño principe que vive en un pequeño asteroide y llega a la Tierra",
+        "Año": 1943,
+        "Portada":"https://m.media-amazon.com/images/I/811kjwhnjcS._SY466_.jpg"
+    }
 }
 listaParaAgregarLibros = []
 
