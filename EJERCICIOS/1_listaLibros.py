@@ -62,12 +62,12 @@ librosConInformacion = {
         "Sinopsis": "Una reflexión alegórica donde la muerte deja de actuar en un país, generando caos y dilemas éticos.",
         "Año": 2005,
         "Portada": "https://m.media-amazon.com/images/I/616OAOTn00L._AC_UF894,1000_QL80_.jpg",
-
     },
     "El Coronel No Tiene Quien Le Escriba": {
         "Autor": "Gabriel García Márquez",
         "Sinopsis": "La historia de un coronel retirado que espera una pensión que nunca llega, en medio de la pobreza.",
         "Año": 1961,
+        "Portada": "https://m.media-amazon.com/images/I/81Vx3UjIbZL._SY522_.jpg",
     },
     "El Aleph": {
         "Autor": "Jorge Luis Borges",
@@ -114,18 +114,17 @@ librosConInformacion = {
         "Sinopsis": "Una metáfora política sobre una sociedad donde la mayoría vota en blanco como protesta silenciosa.",
         "Año": 2004,
     },
-    "El Principito":{
+    "El Principito": {
         "Autor": "Antonie de Saint-Exupéry",
         "Sinopsis": "Narra la historia de un niño principe que vive en un pequeño asteroide y llega a la Tierra",
         "Año": 1943,
-        "Portada":"https://m.media-amazon.com/images/I/811kjwhnjcS._SY466_.jpg"
-    }
+        "Portada": "https://m.media-amazon.com/images/I/811kjwhnjcS._SY466_.jpg",
+    },
 }
 listaParaAgregarLibros = []
 
 
 def BusquedaLibrosAutores():
-
     while True:
         print("********Bienvenido a la biblioteca de libros: ********")
         print("\n")
@@ -169,7 +168,6 @@ def BusquedaLibrosAutores():
                 print(f"Gracias por sugerirnos a {agregaAutro}. ")
 
         if op == 2:  # Buscamos los libros
-
             buscaLibro = input("Escribe el nombre del libro por favor: ")
             buscaLibroTitle = buscaLibro.title()
 
@@ -185,39 +183,36 @@ def BusquedaLibrosAutores():
                 if elTitulo == buscaLibroTitle:  # igual a la entrada del titulo
                     if (
                         elTitulo in librosConInformacion
-                    ):  # si esta en  el dicionario y es igual al keys
+                    ):  # si esta en el dicionario y es igual al keys
                         infoDelLibro = librosConInformacion[elTitulo]
                         print(f"\nInformacio del libro '{elTitulo}' ")
                         print(f"\nAño: '{infoDelLibro.get('Año')}' ")
                         print(f"\nSinopsis: '{infoDelLibro.get('Sinopsis')}' ")
                         print(f"\nAutor: '{infoDelLibro.get('Autor')}' ")
-                        
+
                         print(f"\nPortada... {infoDelLibro.get('Portada')} ")
 
-                                                                    
-                        #esto guarda que lo da de valor (value) de Portada (keys) que es el link 
-                        portada = infoDelLibro.get('Portada')
+                        # esto guarda que lo da de valor (value) de Portada (keys) que es el link
+                        portada = infoDelLibro.get("Portada")
 
-                        #Esto es el verdadero funcionamiento de que ese pueda abrir la portada
+                        # Esto es el verdadero funcionamiento de que ese pueda abrir la portada
                         response = requests.get(portada, stream=True)
                         imagen = Image.open(BytesIO(response.content))
                         imagen.show()
 
                     else:
                         print("\n**************************************************")
-                        print(f"El libro esta en la lista, pero no hay informacion ")
-                        
-
-
+                        print(
+                            f"El libro {elTitulo} esta en la lista, pero no hay informacion"
+                        )
+                        print("\n**************************************************")
                     encontradoElLibro = True  # aqui ya buscamos el libro
                     break  # salimos del bucle if
-            if (
-                not encontradoElLibro
-            ):  # aqui ya esta al nivel del for, asi que si al terminar el ciclo "encontrado" sigue siendo false
+            if not encontradoElLibro:  # aqui ya esta al nivel del for, asi que si al terminar el ciclo "encontrado" sigue siendo false
                 print("El libro no se encuentra en la lista.")
 
         if op == 3:
-
+            # Uso de ruta para windows abrir img
             imagen_ruta = (
                 "C:\\Users\\Esteban\\Pictures\\nikita-palenov-XIMXY5-fK4E-unsplash.jpg"
             )

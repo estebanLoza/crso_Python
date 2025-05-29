@@ -1,11 +1,12 @@
-#Definir una tupla
-frutas = ('Naranja', 'Plátano', 'Guayaba')
+# Definir una tupla
+frutas = ("Naranja", "Plátano", "Guayaba")
 print(frutas)
-#saber el largo
+# saber el largo
 print(len(frutas))
-#acceder a un elemento
+# acceder a un elemento
 print(frutas[0])
 # navegación inversa
 print(frutas[-1])
 # acceder a un rango
-print(frutas[0:1])# sin incluir el último índice
+print(frutas[0:1])  # sin incluir el último índice
+

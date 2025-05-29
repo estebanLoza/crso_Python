@@ -1,5 +1,3 @@
-
-
 def mi_funcion(nombre, apellido):
     print("saludos desde mi funcion")
     print(f"Nombre: {nombre}, Apellido: {apellido}")
@@ -7,4 +5,5 @@ def mi_funcion(nombre, apellido):
 
 mi_funcion("Juan", "Perez")
 mi_funcion("Karala", "Lara")
-mi_funcion(10,20)
+mi_funcion(10, 20)
+
