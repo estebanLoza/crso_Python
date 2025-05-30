@@ -1,7 +1,15 @@
-##[pylyzer] failed /users/emhl17/desktop/crso_python/10_clases_y_objetos_en_python/191_ejeconstructoros.py 1747627213 548
+##[pylyzer] failed /users/emhl17/desktop/crso_python/10_clases_y_objetos_en_python/191_ejeconstructoros.py 1748165302 751
 .Persona: ClassType
 .Persona.nombre: Never
 .Persona.apellido: Never
 .Persona.__call__: (nombre: Obj, apellido: Obj) -> 191_ejeconstructoros.Persona
 .Persona.mostrar_persona: (self: 191_ejeconstructoros.Persona) -> NoneType
+
+
+191_ejeconstructoros = pyimport "191_ejeconstructoros"
+.persona1: .Persona
+
+.persona2: .Persona
+
+
 

@@ -1,0 +1,13 @@
+##[pylyzer] failed /users/emhl17/desktop/crso_python/10_clases_y_objetos_en_python/193_ejerciciosaritmetica.py 1748165683 362
+.Aritmetica: ClassType
+.Aritmetica.operando2: Never
+.Aritmetica.operando1: Never
+.Aritmetica.__call__: (operando1: Obj, operando2: Obj) -> 193_ejerciciosaritmetica.Aritmetica
+.Aritmetica.sumar: (self: 193_ejerciciosaritmetica.Aritmetica) -> NoneType
+
+
+193_ejerciciosaritmetica = pyimport "193_ejerciciosaritmetica"
+.opSuma: .Aritmetica
+
+
+
