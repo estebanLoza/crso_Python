@@ -207,8 +207,13 @@ def BusquedaLibrosAutores():
                         )
                         print("\n**************************************************")
                     encontradoElLibro = True  # aqui ya buscamos el libro
+                    for spaceCode in range(11):
+                        print("\n")
+
                     break  # salimos del bucle if
-            if not encontradoElLibro:  # aqui ya esta al nivel del for, asi que si al terminar el ciclo "encontrado" sigue siendo false
+            if (
+                not encontradoElLibro
+            ):  # aqui ya esta al nivel del for, asi que si al terminar el ciclo "encontrado" sigue siendo false
                 print("El libro no se encuentra en la lista.")
 
         if op == 3:
