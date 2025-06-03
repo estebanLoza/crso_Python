@@ -12,11 +12,10 @@ set == modificar el valor
 
 
 class Coche:
-
     def __init__(self, marca, modelo, color):
         self._marca = marca  # Atributo protegido
         self._modelo = modelo
-        #     self.__color = color  # Atributo privado
+        #     self.__color = color  # Atributo privado, lo comentamos porque si no podremos hacer el ejemplo
         self._color = color
 
     def conducir(self):

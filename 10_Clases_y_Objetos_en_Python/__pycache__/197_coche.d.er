@@ -1,0 +1,25 @@
+##[pylyzer] failed /users/emhl17/desktop/crso_python/10_clases_y_objetos_en_python/197_coche.py 1748937069 1571
+
+.Coche: ClassType
+.Coche._modelo: Never
+.Coche._marca: Never
+.Coche._color: Never
+.Coche.__call__: (marca: Obj, modelo: Obj, color: Obj) -> 197_coche.Coche
+.Coche.conducir: (self: 197_coche.Coche) -> NoneType
+.Coche.get_marca: (self: 197_coche.Coche) -> Never
+.Coche.set_marca: (self: 197_coche.Coche, marca: Obj) -> NoneType
+.Coche.get_modelo: (self: 197_coche.Coche) -> Never
+.Coche.set_modelo: (self: 197_coche.Coche, modelo: Obj) -> NoneType
+.Coche.get_color: (self: 197_coche.Coche) -> Never
+.Coche.set_color: (self: 197_coche.Coche, color: Obj) -> NoneType
+
+
+197_coche = pyimport "197_coche"
+.coche1: .Coche
+
+
+
+
+
+
+

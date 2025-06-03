@@ -1,0 +1,20 @@
+##[pylyzer] failed /users/emhl17/desktop/crso_python/10_clases_y_objetos_en_python/196_encapsulamiento.py 1748937016 1762
+
+.Coche: ClassType
+.Coche.marca: Never
+.Coche._modelo: Never
+.Coche.__color: Never
+.Coche.__call__: (marca: Obj, modelo: Obj, color: Obj) -> 196_encapsulamiento.Coche
+.Coche.conducir: (self: 196_encapsulamiento.Coche) -> NoneType
+
+
+196_encapsulamiento = pyimport "196_encapsulamiento"
+.coche1: .Coche
+
+
+
+
+
+
+
+

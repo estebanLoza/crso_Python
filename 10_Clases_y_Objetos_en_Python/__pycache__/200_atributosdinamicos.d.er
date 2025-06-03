@@ -1,0 +1,39 @@
+##[pylyzer] failed /users/emhl17/desktop/crso_python/10_clases_y_objetos_en_python/200_atributosdinamicos.py 1748938769 2788
+
+.Coche: ClassType
+.Coche._modelo: Never
+.Coche._marca: Never
+.Coche._color: Never
+.Coche.__call__: (marca: Obj, modelo: Obj, color: Obj) -> 200_atributosdinamicos.Coche
+.Coche.conducir: (self: 200_atributosdinamicos.Coche) -> NoneType
+.Coche.marca : (self: 200_atributosdinamicos.Coche) -> Never
+.Coche.marca: {"toyota3"}
+.Coche.marca: (self: 200_atributosdinamicos.Coche, marca: Obj) -> NoneType
+.Coche.modelo : (self: 200_atributosdinamicos.Coche) -> Never
+.Coche.modelo: {"mustang"}
+.Coche.modelo: (self: 200_atributosdinamicos.Coche, modelo: Obj) -> NoneType
+.Coche.color : (self: 200_atributosdinamicos.Coche) -> Never
+.Coche.color: {"elfuerte"}
+.Coche.color: (self: 200_atributosdinamicos.Coche, color: Obj) -> NoneType
+
+
+200_atributosdinamicos = pyimport "200_atributosdinamicos"
+.coche1: .Coche
+
+
+
+
+
+
+
+
+
+
+
+.coche2: .Coche
+
+
+
+
+
+

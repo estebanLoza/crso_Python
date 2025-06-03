@@ -19,7 +19,6 @@
 
 
 class Coche:
-
     def __init__(self, marca, modelo, color):
         self.marca = marca  # Atribuot publico
         self._modelo = modelo  # Atributo protegido
@@ -46,5 +45,5 @@ if __name__ == "__main__":
     coche1.marca = "Toyota2"
     coche1._modelo = "Yaris2"  # Esto no es una buena practica
     coche1.__color = "Azul2"  # Ignoro la modificacion
-    coche1._Coche__color = "Azul3"  # Es una mala practica
+    coche1._Coche__color = "Azul3"  # Es una mala practica,es para poder cambiar_valor
     coche1.conducir()

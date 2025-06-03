@@ -4,7 +4,7 @@
 class Persona:
     # Creamos constructor
     def __init__(self, nombre, apellido):
-        # cramos los atributos de la clase
+        # cramos los atributos de la clase, los atributo son como el nombre, apellido, edad, sexo, etc.
         self.nombre = nombre
         self.apellido = apellido
 

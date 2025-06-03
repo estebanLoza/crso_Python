@@ -1,0 +1,20 @@
+##[pylyzer] failed /users/emhl17/desktop/crso_python/10_clases_y_objetos_en_python/201_ejencapsulamiento.py 1748940743 762
+.Aritmetica: ClassType
+.Aritmetica._operando1: Never
+.Aritmetica._operando2: Never
+.Aritmetica.__call__: (operando1: Obj, operando2: Obj) -> 201_ejencapsulamiento.Aritmetica
+.Aritmetica.sumar: (self: 201_ejencapsulamiento.Aritmetica) -> NoneType
+.Aritmetica.restar: (self: 201_ejencapsulamiento.Aritmetica) -> NoneType
+
+
+
+201_ejencapsulamiento = pyimport "201_ejencapsulamiento"
+.aritmetica1: .Aritmetica
+
+
+.aritmetica2: .Aritmetica
+
+
+
+
+
