@@ -33,7 +33,7 @@ class Coche:
     #       return self._marca
 
     @property
-    # con property estamos indicando que este atributo es una propiedad de nuestra clase, el por eso que
+    # con property estamos indicando que este atributo es una propiedad de nuestra clase, por eso que
     # comentamos el def de arriba
     def marca(self):
         return self._marca  # lo escribimos como esta arriba en __init__

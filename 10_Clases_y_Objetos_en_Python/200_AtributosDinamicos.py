@@ -1,4 +1,4 @@
-""" "
+""""
 
   ***** Atributos dinamicos
 
@@ -9,9 +9,9 @@
 
 
 
-get == @property
-
-set == (atributNombre).setter
+get == @property == acceder al valor
+ 
+set == (atributNombre).setter == modificar el valor 
 
 """
 
@@ -93,7 +93,7 @@ if __name__ == "__main__":
     coche1.nuevo_atributo2 = "Valor nuevo atributo 2"  # cambiamos el valor
     print(f"Atributos del coche1: {coche1.__dict__}")  # para ver los atributos
     coche1.conducir()
-    print(coche1.nuevo_atributo)
+    print(coche1.nuevo_atributo) #esto es de la linea setattr 'valor nuevo atributo'
     print(f"Nuevo Atributo coch1 {coche1.nuevo_atributo2}")
 
     # segundo objeto
@@ -101,5 +101,8 @@ if __name__ == "__main__":
     coche2 = Coche("Chevrolet", "Trax", "Blanco")
     coche2.conducir()
     print(f"Atributos del coche 2: {coche2.__dict__}")
+    coche2.nuevoAtributo2coche2 = 'atributo nuevo coche 2 objeto 2'
+    print("\n")
+    print(f"con el nuevo atributo de coche 2: {coche2.__dict__}")
 #    print(f'Nuevo atributo coche2 {coche2.nuevo_atributo1}')
 #   print(f"Nuevo atributo coche2 {coche2.nuevo_atributo2}")

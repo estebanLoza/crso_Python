@@ -1,4 +1,3 @@
-import bz2
 # Este ejercicio es aplicando el encapuslamiento con los mismo datos de 193_EjercicioAritmetica
 
 
