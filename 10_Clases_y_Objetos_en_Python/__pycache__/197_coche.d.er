@@ -1,4 +1,4 @@
-##[pylyzer] failed /users/emhl17/desktop/crso_python/10_clases_y_objetos_en_python/197_coche.py 1748937069 1571
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\10_clases_y_objetos_en_python\197_coche.py 1748942220 1632
 
 .Coche: ClassType
 .Coche._modelo: Never
@@ -16,6 +16,14 @@
 
 197_coche = pyimport "197_coche"
 .coche1: .Coche
+
+
+
+
+
+
+
+.Coche
 
 
 

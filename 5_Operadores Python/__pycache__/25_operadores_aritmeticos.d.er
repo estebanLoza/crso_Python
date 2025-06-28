@@ -1,0 +1,5 @@
+##[pylyzer] succeed c:\users\esteban\desktop\crso_python\5_operadores python\25_operadores_aritmeticos.py 1733088382 311
+.operandoA: {35}
+.operandoB: {40}
+.suma: Nat
+

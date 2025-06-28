@@ -1,7 +1,6 @@
 lista = []
 
 
-
 p = int(input("Ingresa la cantidad de datos que quieres guardar: "))
 
 for i in range(p):
@@ -12,10 +11,3 @@ print("\n\n")
 
 for numeroPrint in range(len(lista)):
     print(f" '{lista[numeroPrint]}' es el {numeroPrint + 1} de la lista")
-
-
-
-
-
-
-

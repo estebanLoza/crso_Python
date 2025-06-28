@@ -1,0 +1,10 @@
+##[pylyzer] succeed c:\users\esteban\desktop\crso_python\5_operadores python\27_ejercicio_rectangulo.py 1733088382 884
+
+.alto: Int
+.ancho: Int
+.area: Int
+.perimetro: Int
+
+
+
+

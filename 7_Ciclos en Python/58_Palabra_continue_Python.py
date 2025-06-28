@@ -14,7 +14,6 @@ for letra in cadena:
     print(letra)
 
 
-
 print('\n\n')
 print('*****')
 print('Ejemplo 2')

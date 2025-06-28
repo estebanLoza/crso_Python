@@ -1,4 +1,4 @@
-##[pylyzer] failed /users/emhl17/desktop/crso_python/10_clases_y_objetos_en_python/200_atributosdinamicos.py 1748938769 2788
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\10_clases_y_objetos_en_python\200_atributosdinamicos.py 1749017387 3141
 
 .Coche: ClassType
 .Coche._modelo: Never
@@ -20,6 +20,17 @@
 200_atributosdinamicos = pyimport "200_atributosdinamicos"
 .coche1: .Coche
 
+
+
+
+
+
+
+
+
+
+
+.coche2: .Coche
 
 
 

@@ -1,0 +1,17 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\ejercicios\2_calculosdealgreba.py 1748504538 497
+.integrate = pyimport "__init__"
+.__init__ = pyimport "__init__"
+
+.special = pyimport "__init__"
+
+
+.result: Never
+
+.m1: global::List!(global::List!(Int, 3), 3)
+
+.m1_largoMatriz: Nat
+
+.s: {0}
+
+
+

@@ -1,9 +1,9 @@
-#Determinar si el numero es par o impar
+# Determinar si el numero es par o impar
 
 
-num = int(input("Ingrese el numero: "))
+numero = int(input("Ingresa un número: "))
 
-if num % 2 != 0:
-    print("El numero es impar")
+if numero % 2 == 0:
+    print("Es un número par.")
 else:
-    print("El numero es par")
+    print("Es un número impar.")

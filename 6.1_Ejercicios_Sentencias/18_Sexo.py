@@ -5,19 +5,12 @@ y mayor de edad ,el nombre de la persona
 
 
 """
-#Usario ingresa datos
+# Usario ingresa datos
 
-nombre = input("Ingrese su nombre: ")
+nombre = input("Ingresé su nombre: ")
+edad = input("Ingrese su edad: ")
+sexo = input("Ingrese su sexo: ")
 
-edad = int(input("Ingrese su edad: "))
+sexo = sexoNuevo.upper
 
-sexo = input("Ingres su sexo: ")
-
-#que no imparte si es mayusculas o minusculas 
-
-sexo = sexo.lower()
-
-if sexo == "femenino" and edad >= 18: 
-    print(f"Su nombre es {nombre}")
-else:
-    print("Lo siento no cumple con los requisitos")
+if sexo =

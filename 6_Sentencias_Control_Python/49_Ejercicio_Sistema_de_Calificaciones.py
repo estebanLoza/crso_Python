@@ -16,14 +16,13 @@ Calquier otro valor debe imprimir: Valor incorrecto
 Por ejemplo:
 Porporciona un valor entre 0 y  10:
 
-A
 
 
 """
 
 calf = float(input("Igresa tu calificacion: "))
 
-if 9 <= calf <= 10: #Manera simplificada y diciendo que es mayor y igual
+if 9 <= calf <= 10:  # Manera simplificada y diciendo que es mayor y igual
     print("A")
 elif calf >= 8 and calf < 9:
     print("B")
@@ -35,5 +34,3 @@ elif calf >= 0 and calf < 6:
     print("F")
 else:
     print("Valor incorrecto")
-
-

@@ -1,0 +1,12 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\ejercicios\oop.py 1749460309 1215
+
+.Perro: ClassType
+.Perro.nombre: Never
+.Perro.raza: Never
+.Perro.__call__: (nombre: Obj, raza: Obj) -> oop.Perro
+
+oop = pyimport "oop"
+.mi_perro: .Perro
+
+
+
