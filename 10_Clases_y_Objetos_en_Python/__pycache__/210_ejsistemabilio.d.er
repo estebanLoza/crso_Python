@@ -1,0 +1,14 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\10_clases_y_objetos_en_python\210_ejsistemabilio.py 1752213230 997
+
+.Libro: ClassType
+.Libro._autor: Never
+.Libro._titulo: Never
+.Libro._genero: Never
+.Libro.__call__: (titulo: Obj, autor: Obj, genero: Obj) -> 210_ejsistemabilio.Libro
+.Libro.titulo : (self: 210_ejsistemabilio.Libro) -> Never
+.Libro.titulo: Never
+.Libro.autor : (self: 210_ejsistemabilio.Libro) -> Never
+.Libro.autor: Never
+.Libro.genero : (self: 210_ejsistemabilio.Libro) -> Never
+.Libro.genero: Never
+

@@ -1,0 +1,40 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\8_colecciones en python\70_diccionario_en_python2.py 1752904614 1455
+.mi_diccionario: global::Dict!({{"ciudad"}: {"EjemploVilla"}, {"edad"}: {25}, {"nombre"}: {"Juan"}})
+
+
+.clave: {"nombre", "edad", "ciudad"}
+.valor: {Type_v_global_156681: Nat or Str | (Type_v_global_156681 == "Juan" or Type_v_global_156681 == "EjemploVilla" or Type_v_global_156681 == 25)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.datos: global::Dict!({{"estudiante1"}: global::Dict!({{"edad"}: {20}, {"carrera"}: {"Ingenieria"}, {"nombre"}: {"Juan"}}), {"estudiante2"}: global::Dict!({{"edad"}: {22}, {"carrera"}: {"Medicina"}, {"nombre"}: {"Maria"}})})
+.edad_juan: {20}
+
+.nombre_Maria: {"Maria"}
+
+
+
+.clave_principal: {"estudiante2", "estudiante1"}
+.valor_principal: global::Dict!({{"edad"}: {20}, {"carrera"}: {"Ingenieria"}, {"nombre"}: {"Juan"}}) or global::Dict!({{"edad"}: {22}, {"carrera"}: {"Medicina"}, {"nombre"}: {"Maria"}})
+
+
+.clave_anidada: Obj
+.valor_anidado: Never
+
+
+
+
+
+

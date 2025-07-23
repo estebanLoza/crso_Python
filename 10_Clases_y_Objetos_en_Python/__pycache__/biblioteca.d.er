@@ -1,0 +1,15 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\10_clases_y_objetos_en_python\biblioteca.py 1752213818 1150
+.Biblioteca: ClassType
+.Biblioteca._libros: Never
+.Biblioteca._nombre: Never
+.Biblioteca.__call__: (nombre: Obj) -> biblioteca.Biblioteca
+.Biblioteca.agregar_libro: (self: biblioteca.Biblioteca, libro: Obj) -> NoneType
+.Biblioteca.buscar_libros_por_autor: |Type_32888 <: Structural({.lower = (self: Obj) -> E}), E :> global::Bytes or Str|(self: biblioteca.Biblioteca, autor: Type_32888) -> NoneType
+.Biblioteca.buscar_libros_por_genero: |E :> global::Bytes or Str, Type_32890 <: Structural({.lower = (self: Obj) -> E})|(self: biblioteca.Biblioteca, genero: Type_32890) -> NoneType
+.Biblioteca.mostrar_todos_los_libros: (self: biblioteca.Biblioteca) -> NoneType
+.Biblioteca.mostrar_libro: |Type_32947: Type, T <: Structural({.autor = Type_32911; ._autor = Type_32952; .genero = Type_32957; .titulo = Type_32947}), Type_32911 <: global::Bytes or Str, Type_32952: Type, Type_32957: Type|(self: biblioteca.Biblioteca, libro: T) -> NoneType
+.Biblioteca.nombre : (self: biblioteca.Biblioteca) -> Never
+.Biblioteca.nombre: Never
+.Biblioteca.libros : (self: biblioteca.Biblioteca) -> Never
+.Biblioteca.libros: Never
+

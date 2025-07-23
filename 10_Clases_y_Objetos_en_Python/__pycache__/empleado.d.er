@@ -1,0 +1,9 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\10_clases_y_objetos_en_python\empleado.py 1752212385 618
+.Empleado: ClassType
+.Empleado.nombre: Never
+.Empleado.departamento: Never
+
+Empleado.__call__: (nombre: Obj, departamento: Obj) -> empleado.Empleado
+.Empleado.contador_empleados: {0}
+.Empleado.obtener_total_empleados: |Type_12465 <: Structural({.contador_empleados = Type_12472}), Type_12472: Type|(cls: Type_12465) -> Type_12472
+

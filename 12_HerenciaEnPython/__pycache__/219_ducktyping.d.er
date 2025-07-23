@@ -1,0 +1,26 @@
+##[pylyzer] succeed c:\users\esteban\desktop\crso_python\12_herenciaenpython\219_ducktyping.py 1753264003 1716
+
+.Animal: ClassType
+.Animal.__call__: () -> 219_ducktyping.Animal
+.Animal.hacer_sonido: (self: 219_ducktyping.Animal) -> NoneType
+
+.Perro: ClassType
+219_ducktyping = pyimport "219_ducktyping"
+.Perro <: .Animal
+.Perro.hacer_sonido: (self: 219_ducktyping.Perro) -> NoneType
+
+.Gato: ClassType
+.Gato <: .Animal
+.Gato.hacer_sonido: (self: 219_ducktyping.Gato) -> NoneType
+
+.hacer_sonido_animal: (animal: 219_ducktyping.Animal) -> NoneType
+
+
+.animal1: .Animal
+
+
+.perro1: .Perro
+
+
+.gato1: .Gato
+

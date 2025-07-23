@@ -1,0 +1,16 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\practicalibro.py 1752729275 388
+.Instrumento: ClassType
+.Instrumento.precio: Never
+.Instrumento.__call__: (precio: Obj) -> practicalibro.Instrumento
+.Instrumento.tocar: (self: practicalibro.Instrumento) -> NoneType
+.Instrumento.romper: (self: practicalibro.Instrumento) -> NoneType
+
+.Bateria: ClassType
+practicalibro = pyimport "practicalibro"
+.Bateria <: .Instrumento
+
+.Guitarra: ClassType
+.Guitarra <: .Instrumento
+
+.bateria: .Bateria
+

@@ -1,4 +1,7 @@
 # Creamos el diccionario inicial del escritor
+
+
+
 escritor = {
     "nombre": "Gabriel García Márquez",
     "edad": 87,

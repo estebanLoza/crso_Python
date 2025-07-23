@@ -1,0 +1,23 @@
+##[pylyzer] succeed c:\users\esteban\desktop\crso_python\12_herenciaenpython\216_sobreescritura.py 1752377614 773
+
+.Animal: ClassType
+.Animal.__call__: () -> 216_sobreescritura.Animal
+.Animal.comer: (self: 216_sobreescritura.Animal) -> NoneType
+.Animal.dormir: (self: 216_sobreescritura.Animal) -> NoneType
+
+.Perro: ClassType
+216_sobreescritura = pyimport "216_sobreescritura"
+.Perro <: .Animal
+.Perro.hacer_sonido: (self: 216_sobreescritura.Perro) -> NoneType
+.Perro.dormir: (self: 216_sobreescritura.Perro) -> NoneType
+
+
+
+.animal1: .Animal
+
+
+
+.perro1: .Perro
+
+
+

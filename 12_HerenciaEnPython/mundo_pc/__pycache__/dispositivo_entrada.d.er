@@ -1,0 +1,6 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\dispositivo_entrada.py 1753265588 243
+.DispositivoEntrada: ClassType
+.DispositivoEntrada.marca: Never
+.DispositivoEntrada.tipo_entrada: Never
+.DispositivoEntrada.__call__: (marca: Obj, tipo_entrada: Obj) -> dispositivo_entrada.DispositivoEntrada
+

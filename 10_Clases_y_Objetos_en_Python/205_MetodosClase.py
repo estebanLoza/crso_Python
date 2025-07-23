@@ -1,5 +1,6 @@
 class Persona:
   # Atributo clase
+
   contador_personas = 0
 
    def __init__(self, nombre, apellido):

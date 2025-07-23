@@ -1,0 +1,14 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\10_clases_y_objetos_en_python\ejsistemabiblio.py 1752214324 1029
+
+.Libro: ClassType
+.Libro._autor: Never
+.Libro._titulo: Never
+.Libro._genero: Never
+.Libro.__call__: (titulo: Obj, autor: Obj, genero: Obj) -> ejsistemabiblio.Libro
+.Libro.titulo : (self: ejsistemabiblio.Libro) -> Never
+.Libro.titulo: Never
+.Libro.autor : (self: ejsistemabiblio.Libro) -> Never
+.Libro.autor: Never
+.Libro.genero : (self: ejsistemabiblio.Libro) -> Never
+.Libro.genero: Never
+

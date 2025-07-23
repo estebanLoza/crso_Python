@@ -1,0 +1,22 @@
+##[pylyzer] succeed c:\users\esteban\desktop\crso_python\12_herenciaenpython\214_herenciaenpythonpart1.py 1752729337 1255
+
+.Animal: ClassType
+.Animal.__call__: () -> 214_herenciaenpythonpart1.Animal
+.Animal.comer: (self: 214_herenciaenpythonpart1.Animal) -> NoneType
+.Animal.dormir: (self: 214_herenciaenpythonpart1.Animal) -> NoneType
+
+.Perro: ClassType
+214_herenciaenpythonpart1 = pyimport "214_herenciaenpythonpart1"
+.Perro <: .Animal
+.Perro.hacer_sonido: (self: 214_herenciaenpythonpart1.Perro) -> NoneType
+
+
+
+.animal1: .Animal
+
+
+
+.perro1: .Perro
+
+
+

@@ -1,0 +1,29 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\8_colecciones en python\69_diccionario_en_python.py 1752822357 1064
+.escritor: global::Dict!({{"edad"}: {87}, {"libros"}: global::List!({"Cien años de soledad", "El amor en los tiempos del cólera"}, 2), {"nombre"}: {"Gabriel García Márquez"}})
+
+
+.clave: {"nombre", "edad", "libros"}
+.valor: global::List!({"Cien años de soledad", "El amor en los tiempos del cólera"}, 2) or {"Gabriel García Márquez"} or {87}
+
+
+
+
+.nacionalidad: Str
+
+
+
+.clave: {"nombre", "edad", "libros"}
+.valor: global::List!({"Cien años de soledad", "El amor en los tiempos del cólera"}, 2) or {"Gabriel García Márquez"} or {87}
+
+
+
+
+.matrimonio: Str
+
+
+
+.clave: {"nombre", "edad", "libros"}
+.valor: global::List!({"Cien años de soledad", "El amor en los tiempos del cólera"}, 2) or {"Gabriel García Márquez"} or {87}
+
+
+

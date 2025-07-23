@@ -1,0 +1,12 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\10_clases_y_objetos_en_python\empresa.py 1752212532 1069
+.___v_desugar_1 = pyimport "empleado"
+.empleado = pyimport "empleado"
+.Empleado: {empleado.Empleado}
+.Empresa: ClassType
+.Empresa.nombre: Never
+.Empresa.empleados: Never
+.Empresa.__call__: (nombre: Obj) -> empresa.Empresa
+.Empresa.contratar_empleado: (self: empresa.Empresa, nombre: Obj, departamento: Obj) -> NoneType
+.Empresa.obtener_numero_empleados_departamento: (self: empresa.Empresa, departamento: Obj) -> Nat
+.Empresa.obtener_total_empleados: (self: empresa.Empresa) -> NoneType
+

@@ -1,0 +1,25 @@
+##[pylyzer] succeed c:\users\esteban\desktop\crso_python\12_herenciaenpython\217_polimorfismo.py 1752387789 1089
+
+.Animal: ClassType
+.Animal.__call__: () -> 217_polimorfismo.Animal
+.Animal.hacer_sonido: (self: 217_polimorfismo.Animal) -> NoneType
+
+.Perro: ClassType
+217_polimorfismo = pyimport "217_polimorfismo"
+.Perro <: .Animal
+.Perro.hacer_sonido: (self: 217_polimorfismo.Perro) -> NoneType
+
+.Gato: ClassType
+.Gato <: .Animal
+.Gato.hacer_sonido: (self: 217_polimorfismo.Gato) -> NoneType
+
+
+
+.animal1: .Animal
+
+
+.perro1: .Perro
+
+
+.gato1: .Gato
+
