@@ -1,12 +1,10 @@
-##[pylyzer] failed c:\users\esteban\desktop\crso_python\13_herenciamultiple\figurageometrica.py 1734515531 1378
-
-.___v_desugar_1 = pyimport "<failure>"
-.<failure> = pyimport "<failure>"
-.ABC: Never
-.abstracmethod: Never
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\13_herenciamultiple\figurageometrica.py 1753756004 327
 .FiguraGeometrica: ClassType
-.FiguraGeometrica <: Never
+.FiguraGeometrica.alto: Never
+.FiguraGeometrica.ancho: Never
 .FiguraGeometrica.__call__: (ancho: Obj, alto: Obj) -> figurageometrica.FiguraGeometrica
+
+Geometrica.__call__: (ancho: Obj, alto: Obj) -> figurageometrica.FiguraGeometrica
 .FiguraGeometrica.ancho: (self: figurageometrica.FiguraGeometrica) -> Never
 .FiguraGeometrica.ancho: (self: figurageometrica.FiguraGeometrica, ancho: Float) -> NoneType
 .FiguraGeometrica.alto: (self: figurageometrica.FiguraGeometrica) -> Never

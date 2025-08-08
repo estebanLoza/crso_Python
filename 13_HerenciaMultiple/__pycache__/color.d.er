@@ -1,5 +1,7 @@
-##[pylyzer] succeed c:\users\esteban\desktop\crso_python\13_herenciamultiple\color.py 1733088382 185
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\13_herenciamultiple\color.py 1753483518 137
 .Color: ClassType
 .Color.color: Never
-.Color.__call__: (color: Obj) -> Color.Color
+.Color.__call__: (color: Obj) -> color.Color
+
+or
 

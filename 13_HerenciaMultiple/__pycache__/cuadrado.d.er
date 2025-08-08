@@ -1,0 +1,12 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\13_herenciamultiple\cuadrado.py 1753756225 489
+.___v_desugar_1 = pyimport "color"
+.color = pyimport "color"
+.Color: {color.Color}
+.___v_desugar_2 = pyimport "figurageometrica"
+.figurageometrica = pyimport "figurageometrica"
+.FiguraGeometrica: {figurageometrica.FiguraGeometrica}
+.Cuadrado: ClassType
+.Cuadrado <: figurageometrica.FiguraGeometrica
+.Cuadrado.__call__: (lado: Obj, color: Obj) -> cuadrado.Cuadrado
+.Cuadrado.calcular_area: (self: cuadrado.Cuadrado) -> Never
+

@@ -1,0 +1,19 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\teclado.py 1753745871 709
+.___v_desugar_1 = pyimport "dispositivo_entrada"
+.dispositivo_entrada = pyimport "dispositivo_entrada"
+.DispositivoEntrada: {dispositivo_entrada.DispositivoEntrada}
+.Teclado: ClassType
+.Teclado <: dispositivo_entrada.DispositivoEntrada
+.Teclado.id_teclado: Never
+.Teclado.__call__: (marca: Obj, tipo_entrada: Obj) -> teclado.Teclado
+.Teclado.contador_teclados: {0}
+.Teclado.__str__: (self: teclado.Teclado) -> Str
+
+
+teclado = pyimport "teclado"
+.teclado1: .Teclado
+
+.teclado2: .Teclado
+
+
+

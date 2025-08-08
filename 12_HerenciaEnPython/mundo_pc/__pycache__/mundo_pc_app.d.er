@@ -1,0 +1,40 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\mundo_pc_app.py 1753754794 1758
+.___v_desugar_1 = pyimport "orden"
+.orden = pyimport "orden"
+.Orden: {orden.Orden}
+.___v_desugar_2 = pyimport "computadora"
+.computadora = pyimport "computadora"
+.Computadora: {computadora.Computadora}
+.___v_desugar_3 = pyimport "monitor"
+.monitor = pyimport "monitor"
+.Monitor: {monitor.Monitor}
+.___v_desugar_4 = pyimport "raton"
+.raton = pyimport "raton"
+.Raton: {raton.Raton}
+.___v_desugar_5 = pyimport "teclado"
+.teclado = pyimport "teclado"
+.Teclado: {teclado.Teclado}
+
+.teclado1: teclado.Teclado
+.raton1: raton.Raton
+.monitor1: monitor.Monitor
+.computadora1: computadora.Computadora
+.teclado2: teclado.Teclado
+.raton2: raton.Raton
+.monitor2: monitor.Monitor
+.computadora2: computadora.Computadora
+.computadoras1: global::List!(computadora.Computadora, 2)
+.orden1: Never
+.teclado3: teclado.Teclado
+.raton3: raton.Raton
+.monitor3: monitor.Monitor
+.computadora3: computadora.Computadora
+
+
+.teclado4: teclado.Teclado
+.raton4: raton.Raton
+.monitor4: monitor.Monitor
+.computadora4: computadora.Computadora
+.computadoras2: global::List!(computadora.Computadora, 1)
+.orden2: Never
+

@@ -1,12 +1,19 @@
-##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\raton.py 1753265583 491
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\raton.py 1753745506 941
 .___v_desugar_1 = pyimport "dispositivo_entrada"
 .dispositivo_entrada = pyimport "dispositivo_entrada"
 .DispositivoEntrada: {dispositivo_entrada.DispositivoEntrada}
 .Raton: ClassType
 .Raton <: dispositivo_entrada.DispositivoEntrada
-.Raton.marca: Never
 .Raton.id_raton: Never
-.Raton.tipo_entrada: Never
 .Raton.__call__: (marca: Obj, tipo_entrada: Obj) -> raton.Raton
 .Raton.contador_ratones: {0}
+.Raton.__str__: (self: raton.Raton) -> Str
+
+
+raton = pyimport "raton"
+.raton1: .Raton
+
+.raton2: .Raton
+
+
 

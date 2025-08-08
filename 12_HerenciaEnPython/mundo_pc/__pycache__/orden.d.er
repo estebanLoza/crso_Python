@@ -1,0 +1,9 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\orden.py 1753754255 767
+.Orden: ClassType
+.Orden.id_orden: Never
+.Orden.computadoras: Never
+.Orden.__call__: (computadores: Obj) -> orden.Orden
+.Orden.contador_ordenes: {0}
+.Orden.agregar_computadora: (self: orden.Orden, computadora: Obj) -> NoneType
+.Orden.__str__: (self: orden.Orden) -> Str
+

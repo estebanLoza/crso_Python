@@ -1,0 +1,17 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\monitor.py 1753746059 603
+.Monitor: ClassType
+.Monitor.marca: Never
+.Monitor.id_monitor: Never
+.Monitor.tamanio: Never
+.Monitor.__call__: (marca: Obj, tamanio: Obj) -> monitor.Monitor
+.Monitor.contador_monitores: {0}
+.Monitor.__str__: (self: monitor.Monitor) -> Str
+
+
+monitor = pyimport "monitor"
+.monitor1: .Monitor
+
+.monitor2: .Monitor
+
+
+

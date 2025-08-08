@@ -1,60 +1,15 @@
-"""
-FIGURA CUADRADO SOBRE LA HERENCIA MULTIPLE ENTENDIMIENTO
-SOBRE LA SINTAXIS
-
-CLASE 116
-
-"""
-
-# ABC = Abstract Base Class
-
-# esto ahora es de la seccion 14
+#Seccion sobre las herencias multiples
+#Para un mayor entendimiento ve el archivo de color.py
+#Para saber y entender sobre la herencia
 
 
-from abc import ABC, abstracmethod
 
 
-class FiguraGeometrica(ABC):
+class FiguraGeometrica:
     def __init__(self, ancho, alto):
-        if self._validar_valor(ancho):
-            self._ancho = ancho
-        else:
-            self._ancho = 0
-            print(f"Valor erroneo ancho: {ancho}")
-        if self._validar_valor(alto):
-            self._alto = alto
-        else:
-            self._alto = 0
-            print(f"Valor erroneo alto: {alto}")
 
-    @property
-    def ancho(self):
-        return self._ancho
+        #Esto para medir el ancho y alto de un cuadrado 
+        self.ancho = ancho
+        self.alto = alto
 
-    @ancho.setter
-    def ancho(self, ancho):
-        if self._validar_valor(ancho):
-            self._ancho = ancho
-        else:
-            print(f"Valor erroneo ancho: {ancho}")
 
-    @property
-    def alto(self):
-        return self._alto
-
-    @alto.setter
-    def alto(self, alto):
-        if self._validar_valor(alto):
-            self._alto = alto
-        else:
-            print(f"Valor erroneo alto: {alto}")
-
-    @abstractmethod
-    def calcular_area(self):
-        pass
-
-    def __str__(self):
-        return f"FiguraGeometrica [Ancho: {self._ancho}, Alto: {self.alto}]"
-
-    def _validar_valor(self, valor):
-        return True if 0 < valor < 10 else False

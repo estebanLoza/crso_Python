@@ -1,0 +1,34 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\computadora.py 1753746523 1223
+.___v_desugar_1 = pyimport "teclado"
+.teclado = pyimport "teclado"
+.Teclado: {teclado.Teclado}
+.___v_desugar_2 = pyimport "monitor"
+.monitor = pyimport "monitor"
+.Monitor: {monitor.Monitor}
+.___v_desugar_3 = pyimport "raton"
+.raton = pyimport "raton"
+.Raton: {raton.Raton}
+.Computadora: ClassType
+.Computadora.teclado: Never
+.Computadora.monitor: Never
+.Computadora.nombre: Never
+.Computadora.id_computadora: Never
+.Computadora.raton: Never
+.Computadora.__call__: (nombre: Obj, monitor: Obj, teclado: Obj, raton: Obj) -> computadora.Computadora
+.Computadora.contador_computadoras: {0}
+.Computadora.__str__: (self: computadora.Computadora) -> Str
+
+
+.teclado1: teclado.Teclado
+.raton1: raton.Raton
+.monitor1: monitor.Monitor
+computadora = pyimport "computadora"
+.computadora1: .Computadora
+
+.teclado2: teclado.Teclado
+.raton2: raton.Raton
+.monitor2: monitor.Monitor
+.Computadora2: Never
+
+
+

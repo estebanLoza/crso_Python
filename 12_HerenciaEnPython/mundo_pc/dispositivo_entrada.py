@@ -2,6 +2,8 @@
 #Haciendo un proyecto de pc
 
 
+#Este es el primero de entrada sobre el proyectode mundo pc
+
 class DispositivoEntrada:
     #Constructor
     def __init__(self, marca, tipo_entrada):

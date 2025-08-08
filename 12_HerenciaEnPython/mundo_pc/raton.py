@@ -12,7 +12,7 @@ class Raton(DispositivoEntrada):
         self.id_raton = Raton.contador_ratones
         # self.marca = marca
         # self.tipo_entrada = tipo_entrada #forma uno de agregar los atributos padre 
-        super().__init__(marca, tipo_entrada)
+        super().__init__(marca, tipo_entrada) #llamando los constructores de la clase Padre
 
     def __str__(self):
         return (f'Id: {self.id_raton}, Marca: {self.marca},'

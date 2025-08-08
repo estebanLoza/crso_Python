@@ -1,0 +1,9 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\13_herenciamultiple\viejocurso\test_figura_geometrica.py 1753483000 177
+.___v_desugar_1 = pyimport "cuadrado"
+.cuadrado = pyimport "cuadrado"
+.Cuadrado: {cuadrado.Cuadrado}
+.cuadrado1: Never
+
+
+
+

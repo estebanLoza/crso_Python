@@ -1,4 +1,4 @@
-##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\dispositivo_entrada.py 1753265588 243
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\12_herenciaenpython\mundo_pc\dispositivo_entrada.py 1753745314 306
 .DispositivoEntrada: ClassType
 .DispositivoEntrada.marca: Never
 .DispositivoEntrada.tipo_entrada: Never

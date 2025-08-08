@@ -1,0 +1,18 @@
+##[pylyzer] failed c:\users\esteban\desktop\crso_python\13_herenciamultiple\viejocurso\figurageometrica.py 1743416287 1378
+
+.___v_desugar_1: Never
+.ABC: Never
+.abstracmethod: Never
+.FiguraGeometrica: ClassType
+.FiguraGeometrica <: Never
+.FiguraGeometrica.__call__: (ancho: Obj, alto: Obj) -> figurageometrica.FiguraGeometrica
+.FiguraGeometrica.ancho : (self: figurageometrica.FiguraGeometrica) -> Never
+.FiguraGeometrica.ancho: Never
+.FiguraGeometrica.ancho: (self: figurageometrica.FiguraGeometrica, ancho: Float) -> NoneType
+.FiguraGeometrica.alto : (self: figurageometrica.FiguraGeometrica) -> Never
+.FiguraGeometrica.alto: Never
+.FiguraGeometrica.alto: (self: figurageometrica.FiguraGeometrica, alto: Obj) -> NoneType
+.FiguraGeometrica.calcular_area: (self: figurageometrica.FiguraGeometrica) -> NoneType
+.FiguraGeometrica.__str__: (self: figurageometrica.FiguraGeometrica) -> Str
+.FiguraGeometrica._validar_valor: (self: figurageometrica.FiguraGeometrica, valor: Float) -> {True, False}
+
