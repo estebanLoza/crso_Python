@@ -1,4 +1,4 @@
-# Programa para hacer calculos de integrales, matrices
+Programa para hacer calculos de integrales, matrices
 
 import scipy.integrate as integrate
 import scipy.special as special
