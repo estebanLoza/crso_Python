@@ -1,0 +1,25 @@
+import os
+
+
+class CatalogoPeliculas:
+    # Definiendo la variable de clase para la ruta del archivo
+
+    ruta_archivo = 'peliculas.txt'
+
+    @classmethod
+    def agregarPelicula(cls, pelicula):
+        # esto significa que vamos anexar informacion y no sobre poner información
+        with open(cls.ruta_archivo, 'a', encoding='utf8') as archivo:
+            archivo.write(f'{pelicula.nombre}\n')
+            # se abre automaticamente pero tambie se cierra por uso del with
+
+    @classmethod
+    def listar_peliculas(cls):
+        with open(cls.ruta_archivo, 'r', encoding='utf8') as archivo:
+            print('Catalogo de Peliculas'.center(50, '-'))
+            print(archivo.read())
+
+    @classmethod
+    def eliminar_peliculas(cls):
+        os.remove(cls.ruta_archivo)
+        print(f'Archivo eliminado: {cls.ruta_archivo}')

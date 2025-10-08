@@ -1,0 +1,8 @@
+##[pylyzer] failed /home/estefy/Desktop/crso_Python/19_ProyectoFinal/catalogo_peliculas/dominio/Pelicula.py 1759889875 289
+.Pelicula: ClassType
+.Pelicula._nombre: Never
+.Pelicula.__call__: (nomre: Obj) -> Pelicula.Pelicula
+.Pelicula.__str__: (self: Pelicula.Pelicula) -> Str
+.Pelicula.nombre : (self: Pelicula.Pelicula) -> Never
+.Pelicula.nombre: Never
+
