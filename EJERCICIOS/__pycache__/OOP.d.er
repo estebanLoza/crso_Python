@@ -1,0 +1,16 @@
+##[pylyzer] failed /home/estefy/Desktop/crso_Python/EJERCICIOS/OOP.py 1760079310 585
+.Persona: ClassType
+.Persona.__call__: () -> OOP.Persona
+.Persona.inicializar_persona: (self: OOP.Persona, nombre: Obj, apellido: Obj) -> NoneType
+.Persona.mostrar_persona: (self: OOP.Persona) -> NoneType
+
+
+OOP = pyimport "OOP"
+.persona1: .Persona
+
+
+.persona2: .Persona
+
+
+
+

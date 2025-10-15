@@ -1,0 +1,10 @@
+##[pylyzer] failed /home/estefy/Desktop/crso_Python/19_ProyectoFinal/catalogo_peliculas/servicio/catalogo_peliculas.py 1760065399 887
+.os: Never
+
+.CatalogoPeliculas: ClassType
+.CatalogoPeliculas.__call__: () -> catalogo_peliculas.CatalogoPeliculas
+.CatalogoPeliculas.ruta_archivo: {"peliculas.txt"}
+.CatalogoPeliculas.agregar_pelicula: |P <: global::PathLike, Type_15830 <: Structural({.ruta_archivo = P})|(cls: Type_15830, pelicula: Structural({.nombre = Obj})) -> NoneType
+.CatalogoPeliculas.listar_peliculas: |P <: global::PathLike, Type_15832 <: Structural({.ruta_archivo = P})|(cls: Type_15832) -> NoneType
+.CatalogoPeliculas.eliminar_peliculas: |Type_15907: Type, Type_15887: Type, Type_15833 <: Structural({.ruta_archivo = Type_15887 and Type_15907})|(cls: Type_15833) -> NoneType
+

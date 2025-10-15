@@ -1,0 +1,16 @@
+##[pylyzer] failed /home/estefy/Desktop/crso_Python/10_Clases_y_Objetos_en_Python/187_CreacionClaseYObjto.py 1760078581 1250
+.Persona: ClassType
+.Persona.__call__: () -> 187_CreacionClaseYObjto.Persona
+.Persona.inicializar_persona: (self: 187_CreacionClaseYObjto.Persona, nombre: Obj, apellido: Obj) -> NoneType
+.Persona.mostrar_persona: (self: 187_CreacionClaseYObjto.Persona) -> NoneType
+
+
+187_CreacionClaseYObjto = pyimport "187_CreacionClaseYObjto"
+.persona1: .Persona
+
+
+.persona2: .Persona
+
+
+
+

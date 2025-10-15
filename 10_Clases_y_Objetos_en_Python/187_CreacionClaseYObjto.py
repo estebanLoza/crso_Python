@@ -7,7 +7,9 @@ class Persona:
     # metodo (o clase), siempre se inicia la primera letra en mayuscula
     def inicializar_persona(self, nombre, apellido):
         # creacion de los atributos de la clase
-        self.nombre = nombre  # --nombre del parametro (nombre, este se debe llamar igual que el que esta en self) y parametro (self.nombre) no importa si parametro se llama self.nom
+        # --nombre del parametro (nombre, este se debe llamar igual que el que esta en self)
+        # y parametro (self.nombre) no importa si parametro se llama self.nom
+        self.nombre = nombre
         self.ap = apellido
 
     def mostrar_persona(self):
@@ -21,10 +23,7 @@ class Persona:
 
 
 # Creacion del primero objetos
-
 # el objeto en este caso sera para ver eel nombre y apellido de la persona 1
-
-
 # estamos creando un objeto vacio para el espacio de memoria
 if __name__ == "__main__":
     # Creacion de un primer objeto

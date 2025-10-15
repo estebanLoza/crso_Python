@@ -1,0 +1,92 @@
+2025-10-10 00:13:45,685 [PID 420741] DEBUG Using selector: EpollSelector
+2025-10-10 00:13:45,690 [PID 420741] INFO Reading Pyre server configurations...
+2025-10-10 00:13:45,697 [PID 420741] ERROR Uncaught error in persistent.run
+Traceback (most recent call last):
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/persistent.py", line 299, in run
+    return asyncio.get_event_loop().run_until_complete(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/persistent.py", line 224, in run_persistent
+    initial_server_options = pyre_server_options.read_server_options(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 129, in read_server_options
+    return server_options_reader()
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 114, in read
+    return PyreServerOptions.create(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 93, in create
+    start_arguments = start.create_server_arguments(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/start.py", line 311, in create_server_arguments
+    source_paths = backend_arguments.get_source_path_for_server(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/backend_arguments.py", line 418, in get_source_path_for_server
+    return get_source_path(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/backend_arguments.py", line 397, in get_source_path
+    raise configuration_module.InvalidConfiguration(
+pyre_check.client.configuration.exceptions.InvalidConfiguration: Invalid configuration: Cannot find any source files to analyze. Either `source_directories` or `targets` must be specified.
+2025-10-10 00:21:46,138 [PID 421168] DEBUG Using selector: EpollSelector
+2025-10-10 00:21:46,139 [PID 421168] INFO Reading Pyre server configurations...
+2025-10-10 00:21:46,141 [PID 421168] ERROR Uncaught error in persistent.run
+Traceback (most recent call last):
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/persistent.py", line 299, in run
+    return asyncio.get_event_loop().run_until_complete(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/persistent.py", line 224, in run_persistent
+    initial_server_options = pyre_server_options.read_server_options(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 129, in read_server_options
+    return server_options_reader()
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 114, in read
+    return PyreServerOptions.create(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 93, in create
+    start_arguments = start.create_server_arguments(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/start.py", line 311, in create_server_arguments
+    source_paths = backend_arguments.get_source_path_for_server(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/backend_arguments.py", line 418, in get_source_path_for_server
+    return get_source_path(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/backend_arguments.py", line 397, in get_source_path
+    raise configuration_module.InvalidConfiguration(
+pyre_check.client.configuration.exceptions.InvalidConfiguration: Invalid configuration: Cannot find any source files to analyze. Either `source_directories` or `targets` must be specified.
+2025-10-10 00:55:21,876 [PID 425133] DEBUG Using selector: EpollSelector
+2025-10-10 00:55:21,878 [PID 425133] INFO Reading Pyre server configurations...
+2025-10-10 00:55:21,880 [PID 425133] ERROR Uncaught error in persistent.run
+Traceback (most recent call last):
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/persistent.py", line 299, in run
+    return asyncio.get_event_loop().run_until_complete(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/persistent.py", line 224, in run_persistent
+    initial_server_options = pyre_server_options.read_server_options(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 129, in read_server_options
+    return server_options_reader()
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 114, in read
+    return PyreServerOptions.create(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 93, in create
+    start_arguments = start.create_server_arguments(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/start.py", line 311, in create_server_arguments
+    source_paths = backend_arguments.get_source_path_for_server(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/backend_arguments.py", line 418, in get_source_path_for_server
+    return get_source_path(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/backend_arguments.py", line 397, in get_source_path
+    raise configuration_module.InvalidConfiguration(
+pyre_check.client.configuration.exceptions.InvalidConfiguration: Invalid configuration: Cannot find any source files to analyze. Either `source_directories` or `targets` must be specified.
+2025-10-13 17:26:34,576 [PID 20252] DEBUG Using selector: EpollSelector
+2025-10-13 17:26:34,588 [PID 20252] INFO Reading Pyre server configurations...
+2025-10-13 17:26:34,615 [PID 20252] ERROR Uncaught error in persistent.run
+Traceback (most recent call last):
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/persistent.py", line 299, in run
+    return asyncio.get_event_loop().run_until_complete(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/persistent.py", line 224, in run_persistent
+    initial_server_options = pyre_server_options.read_server_options(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 129, in read_server_options
+    return server_options_reader()
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 114, in read
+    return PyreServerOptions.create(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/pyre_server_options.py", line 93, in create
+    start_arguments = start.create_server_arguments(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/commands/start.py", line 311, in create_server_arguments
+    source_paths = backend_arguments.get_source_path_for_server(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/backend_arguments.py", line 418, in get_source_path_for_server
+    return get_source_path(
+  File "/home/estefy/.local/share/nvim/mason/packages/pyre/venv/lib/python3.10/site-packages/pyre_check/client/backend_arguments.py", line 397, in get_source_path
+    raise configuration_module.InvalidConfiguration(
+pyre_check.client.configuration.exceptions.InvalidConfiguration: Invalid configuration: Cannot find any source files to analyze. Either `source_directories` or `targets` must be specified.

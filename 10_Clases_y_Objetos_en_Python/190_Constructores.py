@@ -1,6 +1,5 @@
 """
 Un constructor es un metodo especial y se utiliza para crear un objeto, o instanciar una clase
-
 Ademas nos puede servir para crear e inicializar los atributos de un nuevo objeto
 
 

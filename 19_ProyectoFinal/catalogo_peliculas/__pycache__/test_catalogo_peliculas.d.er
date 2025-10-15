@@ -1,0 +1,39 @@
+##[pylyzer] failed /home/estefy/Desktop/crso_Python/19_ProyectoFinal/catalogo_peliculas/test_catalogo_peliculas.py 1760065455 830
+.___v_desugar_1 = pyimport "Pelicula"
+.Pelicula = pyimport "Pelicula"
+.Pelicula: {Pelicula.Pelicula}
+.___v_desugar_2 = pyimport "catalogo_peliculas"
+.catalogo_peliculas = pyimport "catalogo_peliculas"
+.cp: {catalogo_peliculas.CatalogoPeliculas}
+.opcion: {None}
+
+
+
+
+
+
+
+
+.nombre_pelicula: Str
+.pelicula: ClassType
+
+
+
+
+
+
+
+
+
+
+
+
+
+.e: global::Exception
+
+
+
+
+
+
+

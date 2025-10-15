@@ -7,8 +7,9 @@ class CatalogoPeliculas:
     ruta_archivo = 'peliculas.txt'
 
     @classmethod
-    def agregarPelicula(cls, pelicula):
-        # esto significa que vamos anexar informacion y no sobre poner información
+    def agregar_pelicula(cls, pelicula):
+        # esto significa que vamos anexar informacion y no sobre poner información.
+        # 'a' significa que vamos agregar información
         with open(cls.ruta_archivo, 'a', encoding='utf8') as archivo:
             archivo.write(f'{pelicula.nombre}\n')
             # se abre automaticamente pero tambie se cierra por uso del with
