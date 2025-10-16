@@ -1,0 +1,12 @@
+##[pylyzer] failed /home/estefy/Desktop/crso_Python/20_Conexion_Base_Datos/260_Creacion_Base_Datos.py 1760590517 566
+.psycopg2 = pyimport "psycopg2"
+
+
+.conexion: Never
+.cursor: Never
+.sentencia: {"SELECT * FROM persona"}
+
+.registros: Never
+
+
+
